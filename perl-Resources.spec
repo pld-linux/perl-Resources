@@ -1,6 +1,5 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	Resources perl module
-Summary(pl):	Modu³ perla Resources
+Summary:	Resources - handling application defaults in Perl.
 Name:		perl-Resources
 Version:	1.04
 Release:	7
@@ -13,10 +12,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Resources perl module.
-
-%description -l pl
-Modu³ perla Resources.
+Resources.pm is Perl package used to specify configuration (defaults,
+...)  parameters for Perl applications, pretty much in the same way as
+XWindows does.  It implements dynamical inheritance of defaults (both
+values and names) through subclassing, parameter loading from files,
+runtime parameter viewing and editing. The package contains an extensive
+documentation in POD format, to which you are kindly referred.
 
 %prep
 %setup -q -n Resources-%{version}
@@ -30,13 +31,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf Changes README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc Changes README
 %{perl_sitelib}/Resources.pm
 %{_mandir}/man3/*
