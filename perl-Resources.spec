@@ -1,3 +1,8 @@
+#
+# Conditional build:
+%bcond_with	tests	# perform "make test"
+			# interactive
+#
 %include	/usr/lib/rpm/macros.perl
 Summary:	Resources - handling application defaults in Perl
 Summary(pl):	Resources - obs³ugiwanie warto¶ci domy¶lnych w Perlu
@@ -38,6 +43,8 @@ dokumentacjê.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
