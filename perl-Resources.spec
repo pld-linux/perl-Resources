@@ -3,7 +3,7 @@ Summary:	Resources - handling application defaults in Perl
 Summary(pl):	Resources - obs³ugiwanie warto¶ci domy¶lnych w Perlu
 Name:		perl-Resources
 Version:	1.04
-Release:	9
+Release:	10
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Resources/Resources-%{version}.tar.gz
