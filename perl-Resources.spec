@@ -7,6 +7,7 @@ Release:	11
 License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Resources/Resources-%{version}.tar.gz
+# Source0-md5:	59c1e2bcfddecf6ca0c55031c482042d
 BuildRequires:	perl >= 5.6
 BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
