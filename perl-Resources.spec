@@ -3,8 +3,8 @@ Summary:	Resources - handling application defaults in Perl
 Summary(pl):	Resources - obs³ugiwanie warto¶ci domy¶lnych w Perlu
 Name:		perl-Resources
 Version:	1.04
-Release:	10
-License:	GPL
+Release:	11
+License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Resources/Resources-%{version}.tar.gz
 # Source0-md5:	59c1e2bcfddecf6ca0c55031c482042d
@@ -42,7 +42,8 @@ dokumentacjê.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
