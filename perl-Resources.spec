@@ -3,7 +3,7 @@ Summary:	Resources perl module
 Summary(pl):	Modu³ perla Resources
 Name:		perl-Resources
 Version:	1.04
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
