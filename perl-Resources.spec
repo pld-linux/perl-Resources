@@ -2,7 +2,7 @@
 Summary:	Resources - handling application defaults in Perl.
 Name:		perl-Resources
 Version:	1.04
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Resources/Resources-%{version}.tar.gz
