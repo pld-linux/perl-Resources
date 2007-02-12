@@ -5,7 +5,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	Resources - handling application defaults in Perl
-Summary(pl):	Resources - obs≥ugiwanie warto∂ci domy∂lnych w Perlu
+Summary(pl.UTF-8):   Resources - obs≈Çugiwanie warto≈õci domy≈õlnych w Perlu
 Name:		perl-Resources
 Version:	1.04
 Release:	12
@@ -27,14 +27,14 @@ files, runtime parameter viewing and editing. The package contains an
 extensive documentation in POD format, to which you are kindly
 referred.
 
-%description -l pl
-Resources.pm to pakiet Perla uøywany do przekazywania konfiguracji
-(domy∂lnych warto∂ci) do aplikacji perlowych w podobny sposÛb, jak
-robi to system X Window. Modu≥ ma zaimplementowane dynamiczne
-dziedziczenie wielko∂ci domy∂lnych (zarÛwno warto∂ci, jak i nazw)
-poprzez podklasy, wczytywanie parametrÛw z plikÛw, przegl±danie i
-edycjÍ parametrÛw w czasie dzia≥ania. Pakiet zawiera obszern±
-dokumentacjÍ.
+%description -l pl.UTF-8
+Resources.pm to pakiet Perla u≈ºywany do przekazywania konfiguracji
+(domy≈õlnych warto≈õci) do aplikacji perlowych w podobny spos√≥b, jak
+robi to system X Window. Modu≈Ç ma zaimplementowane dynamiczne
+dziedziczenie wielko≈õci domy≈õlnych (zar√≥wno warto≈õci, jak i nazw)
+poprzez podklasy, wczytywanie parametr√≥w z plik√≥w, przeglƒÖdanie i
+edycjƒô parametr√≥w w czasie dzia≈Çania. Pakiet zawiera obszernƒÖ
+dokumentacjƒô.
 
 %prep
 %setup -q -n Resources-%{version}
