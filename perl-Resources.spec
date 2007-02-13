@@ -5,7 +5,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	Resources - handling application defaults in Perl
-Summary(pl.UTF-8):   Resources - obsługiwanie wartości domyślnych w Perlu
+Summary(pl.UTF-8):	Resources - obsługiwanie wartości domyślnych w Perlu
 Name:		perl-Resources
 Version:	1.04
 Release:	12
