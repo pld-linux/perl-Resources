@@ -4,7 +4,6 @@
 			# interactive
 
 %define		pdir	Resources
-%include	/usr/lib/rpm/macros.perl
 Summary:	Resources - handling application defaults in Perl
 Summary(pl.UTF-8):	Resources - obsługiwanie wartości domyślnych w Perlu
 Name:		perl-Resources
